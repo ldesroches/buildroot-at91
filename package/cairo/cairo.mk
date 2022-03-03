@@ -171,5 +171,7 @@ else
 CAIRO_CONF_OPTS += --disable-xml
 endif
 
+CAIRO_AUTORECONF = YES
+
 $(eval $(autotools-package))
 $(eval $(host-autotools-package))
